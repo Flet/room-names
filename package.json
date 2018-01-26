@@ -1,0 +1,38 @@
+{
+  "name": "room-names",
+  "version": "1.0.0",
+  "description": "room names",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Dan Flettre",
+    "email": "flettre@gmail.com",
+    "url": "https://github.com/flet"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "unique-random-array": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "room",
+    "names",
+    "list"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flet/room-names.git"
+  },
+  "homepage": "https://github.com/flet/room-names",
+  "bugs": {
+    "url": "https://github.com/flet/room-names/issues"
+  },
+  "bin": {
+    "room-names": "./cli.js"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
